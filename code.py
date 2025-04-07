@@ -120,13 +120,47 @@ with st.sidebar:
     st.title("Menu")
     page = st.radio(
         "Navigation",
-        ["Vocabulaire financier", "Comprendre les placements", "Simulateur d'investissement" ],
+        ["Présentation", "Vocabulaire financier", "Comprendre les placements", "Simulateur d'investissement" ],
         index=0
     )
 
 
+if page == "Présentation":
+    st.header("🎯 Présentation de FinFlation")
 
-if page == "Vocabulaire financier":
+    st.markdown("""
+    <div style="background-color: #283593; padding: 30px; border-radius: 15px; color: white;">
+        <h2 style="color: #4CAF50;">🔍 C’est quoi FinFlation ?</h2>
+        <p style="font-size: 18px;">
+            FinFlation est une plateforme éducative et interactive qui aide chacun à <strong>mieux comprendre les placements financiers</strong>, 
+            notamment dans un contexte d’inflation.  
+            L’objectif est simple : rendre la finance <strong>accessible, claire et utile</strong> pour toutes les générations, que vous soyez débutant ou curieux d’en savoir plus.
+        </p>
+
+    <h2 style="color: #4CAF50;">📌 Que propose FinFlation ?</h2>
+        <ul style="font-size: 17px;">
+            <li><strong>Un simulateur</strong> pour tester différents scénarios d'investissement entre ETF et Livret A.</li>
+            <li><strong>Un vocabulaire clair</strong> pour mieux comprendre les mots compliqués de la finance.</li>
+            <li><strong>Des fiches explicatives</strong> sur les placements comme les ETF ou les livrets d’épargne.</li>
+        </ul>
+
+    <h2 style="color: #4CAF50;">🧠 Pourquoi c’est important ?</h2>
+        <p style="font-size: 18px;">
+            Dans un monde où <strong>l’inflation impacte le pouvoir d’achat</strong>, il est essentiel de savoir où et comment investir intelligemment.  
+            FinFlation vous donne les clés pour prendre vos décisions en toute connaissance de cause, sans jargon ni complexité.
+        </p>
+
+    <h2 style="color: #4CAF50;">🚀 Prêt à commencer ?</h2>
+        <p style="font-size: 18px;">
+            Explorez le menu à gauche pour tester le simulateur, enrichir votre vocabulaire ou découvrir les bases de l’investissement.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+
+
+
+elif page == "Vocabulaire financier":
     st.header("📚 Vocabulaire financier")
 
     with st.expander("💸 Qu'est-ce que la volatilité", expanded=True):
