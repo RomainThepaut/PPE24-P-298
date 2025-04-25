@@ -91,3 +91,31 @@ streamlit run app.py
 > Remplace `app.py` par le nom réel de ton fichier principal.
 
 ---
+
+#### 🗂️ Arborescence de l'archive
+
+FinFlation/
+│
+├── 📁 app/
+│   ├── code.py                ← Fichier principal Streamlit
+│   ├── 📁 assets/             ← Contient les images et logos
+│   │   ├── logo.png
+│   │   ├── livret.png
+│   │   ├── capbourse.png
+│   │   ├── fin.png
+│   │   ├── graphe.png
+│   │   └── etf.png
+│   ├── 📁 styles/             ← Si CSS externe utilisé plus tard
+│   │   └── custom.css
+│   └── requirements.txt       ← Dépendances (généré automatiquement ci-dessous - streamlit ; yfinance ; numpy ; Pillow ; plotly)
+│
+├── 📁 tests/
+│   └── test_simulation.py    
+│
+├── README.md                  ← Explication du projet
+├── INSTALL.md                 ← Instructions d’installation et de lancement
+├── .gitignore                 ← Exclusions (dossiers temp, .pyc, etc.)
+├── LICENSE.md                 ← Licence du code
+└── CHANGELOG.md               ← Historique des modifications
+
+---
