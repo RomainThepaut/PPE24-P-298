@@ -97,20 +97,20 @@ streamlit run app.py
 <pre>
 FinFlation/
 │
-├── app/
+├── 📁 app/
 │   ├── code.py                ← Fichier principal Streamlit
-│   ├── assets/                ← Images et logos
+│   ├── 📁 assets/                ← Images et logos
 │   │   ├── logo.png
 │   │   ├── livret.png
 │   │   ├── capbourse.png
 │   │   ├── fin.png
 │   │   ├── graphe.png
 │   │   └── etf.png
-│   ├── styles/                ← CSS externe (optionnel)
+│   ├── 📁 styles/                ← CSS externe (optionnel)
 │   │   └── custom.css
 │   └── requirements.txt       ← Dépendances du projet
 
-├── tests/
+├── 📁 tests/
 │   └── test_simulation.py     ← Fichier de tests (optionnel mais recommandé)
 
 ├── README.md                  ← Présentation du projet
