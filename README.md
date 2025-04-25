@@ -94,6 +94,30 @@ streamlit run app.py
 
 #### 🗂️ Arborescence de l'archive
 
-<pre> FinFlation/ │ ├── app/ │ ├── code.py ← Fichier principal Streamlit │ ├── assets/ ← Images et logos │ │ ├── logo.png │ │ ├── livret.png │ │ ├── capbourse.png │ │ ├── fin.png │ │ ├── graphe.png │ │ └── etf.png │ ├── styles/ ← CSS externe (optionnel) │ │ └── custom.css │ └── requirements.txt ← Dépendances du projet │ ├── tests/ │ └── test_simulation.py ← Fichier de tests (optionnel mais recommandé) │ ├── README.md ← Présentation du projet ├── INSTALL.md ← Instructions d’installation et de lancement ├── .gitignore ← Fichiers/dossiers à ignorer par Git ├── LICENSE.md ← Conditions d’utilisation du code └── CHANGELOG.md ← Historique des modifications </pre>
+<pre>
+FinFlation/
+│
+├── app/
+│   ├── code.py                ← Fichier principal Streamlit
+│   ├── assets/                ← Images et logos
+│   │   ├── logo.png
+│   │   ├── livret.png
+│   │   ├── capbourse.png
+│   │   ├── fin.png
+│   │   ├── graphe.png
+│   │   └── etf.png
+│   ├── styles/                ← CSS externe (optionnel)
+│   │   └── custom.css
+│   └── requirements.txt       ← Dépendances du projet
+
+├── tests/
+│   └── test_simulation.py     ← Fichier de tests (optionnel mais recommandé)
+
+├── README.md                  ← Présentation du projet
+├── INSTALL.md                 ← Instructions d’installation et de lancement
+├── .gitignore                 ← Fichiers/dossiers à ignorer par Git
+├── LICENSE.md                 ← Conditions d’utilisation du code
+└── CHANGELOG.md               ← Historique des modifications
+</pre>
 
 ---
