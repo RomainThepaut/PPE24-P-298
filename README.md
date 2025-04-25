@@ -97,7 +97,7 @@ streamlit run app.py
 FinFlation/
 │
 ├── 📁 app/
-│   ├── code.py                ← Fichier principal Streamlit
+│   ├── code.py                ← Ton fichier principal Streamlit
 │   ├── 📁 assets/             ← Contient les images et logos
 │   │   ├── logo.png
 │   │   ├── livret.png
@@ -107,10 +107,10 @@ FinFlation/
 │   │   └── etf.png
 │   ├── 📁 styles/             ← Si CSS externe utilisé plus tard
 │   │   └── custom.css
-│   └── requirements.txt       ← Dépendances (généré automatiquement ci-dessous - streamlit ; yfinance ; numpy ; Pillow ; plotly)
+│   └── requirements.txt       ← Dépendances (généré automatiquement ci-dessous)
 │
 ├── 📁 tests/
-│   └── test_simulation.py    
+│   └── test_simulation.py     ← (optionnel mais conseillé)
 │
 ├── README.md                  ← Explication du projet
 ├── INSTALL.md                 ← Instructions d’installation et de lancement
